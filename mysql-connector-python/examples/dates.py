@@ -116,11 +116,11 @@ if __name__ == "__main__":
     # Configure MySQL login and database to use in config.py
     #
     config = {
-        "host": "localhost",
-        "port": 3306,
+        "host": "database-2.ch2wm0wuekno.ap-northeast-1.rds.amazonaws.com",
+        "port": 3307,
         "database": "mydb",
-        "user": "user",
-        "password": "password",
+        "user": "admin",
+        "password": "Abounasar",
         "charset": "utf8",
         "use_unicode": True,
         "get_warnings": True,
